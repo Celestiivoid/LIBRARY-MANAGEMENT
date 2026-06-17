@@ -90,6 +90,10 @@ public class LIBRARYMANAGEMENT {
             System.out.println("Successfully logged as student!");
             return true;
         }
+        if(username.equals(adname) && password.equals(adpass)) {
+            System.out.println("Successfully logged as librarian!");
+            return true;
+        }
         else {
             System.out.println("Invalid credentials!");
             return false;
